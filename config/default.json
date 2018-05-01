@@ -1,0 +1,8 @@
+{
+  "ContractProjectApp": {
+       "cardname" : "admin@contract-network",
+       "namespace" : "org.acme.construction",
+       "businessNetworkIdentifier" : "contract-network",
+       "connectionProfile" :"defaultProfile"
+  }
+}

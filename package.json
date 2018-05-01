@@ -1,0 +1,26 @@
+{
+  "name": "contract-project-app",
+  "version": "0.0.1",
+  "description": "Construction Contract Project Application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vizkits/contract-project-app.git"
+  },
+  "author": "Alex Chien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vizkits/contract-project-app/issues"
+  },
+  "homepage": "https://github.com/vizkits/contract-project-app#readme",
+  "dependencies": {
+    "composer-admin": "^0.19.3",
+    "composer-client": "^0.19.3",
+    "config": "^1.30.0",
+    "winston": "^2.4.2"
+  }
+}

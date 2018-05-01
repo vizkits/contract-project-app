@@ -1,1 +1,2 @@
-# contract-project-app
+# Contract Project App
+
