@@ -96,6 +96,11 @@ class App {
             LOG.info('ConstructionRegistry:bootstrap', 'Creating a RCO');
             let rco =  factory.newResource(namespace, 'RequestChangeOrder', 'RCO:1');
             rco.description = 'RCO - 001';
+            rco.budgetStatus = '';
+            rco.costStatus = '';
+            rco.scopeOfWork = [];
+            rco.createDateTime = Date().toString();
+            rco.submitDateTime = Date().toString();
             rco.total = 50000;
             rco.from = factory.newRelationship(namespace, 'GeneralContractor', 'GC:1');
             rco.to = factory.newRelationship(namespace, 'Owner', 'PO:1');
